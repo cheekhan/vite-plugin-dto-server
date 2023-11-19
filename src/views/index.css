@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-height: calc(100vh - 56px);
+}
+
+/* 弹性布局，靠右布局 */
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
